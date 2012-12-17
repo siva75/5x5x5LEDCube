@@ -16,9 +16,9 @@ int midEnd = 68;
 int highStart = 69;
 int highEnd = 512;
 
-float lowVol = 100;  // volume filter for low frequency
-float midVol = 100;  // volume filter for mid frequency
-float highVol = 0;  // volume filter for high frequency
+float lowVol = 10;  // volume filter for low frequency
+float midVol = 10;  // volume filter for mid frequency
+float highVol = 5;  // volume filter for high frequency
 
 int bplLow = 1;  // low frequency blocks/LED
 int bplMid = 1;  // mid frequency blocks/LED
