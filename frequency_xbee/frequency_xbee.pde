@@ -39,7 +39,7 @@ void setup()
   
   size(600, 400);
   
-  //initialization for music 
+  //initialization formusic 
   minim = new Minim(this);
   input = minim.loadFile("01 - Gun's & Roses.mp3", 1024);
   input.play();
